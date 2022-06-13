@@ -15,25 +15,17 @@ describe('helloWorld', function() {
 });
 
 describe("foo", function() {
-    it("should return true if 2 === 2", function() {
-       let expectedResult = 2;
-       let actualResult = 2;
-        expect(actualResult).toBe(expectedResult);
-    });
+            it("should return true if 2 === 2", function() {
+                let expectedResult = 2;
+                let actualResult = 2;
+                expect(actualResult).toBe(expectedResult);
+             });
 });
 
-describe("sayHello",function() {
-    it('should be a defined function', function() {
-    expect(typeof sayHello).toBe('function');
-
-    });
+describe("sayHello", function() {
+            it("sayHello should return a string when called.", function() {
+                expect(typeof sayHello()).toBe("string")
+            });
 });
 
-describe("isTwo", function() {
-    it("should return sum of 1 + 1", function () {
-        let expectedResult = 2;
-        let actualResult = 2;
-        expect(actualResult).toBe(expectedResult);
 
-    })
-})

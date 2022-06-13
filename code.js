@@ -9,8 +9,5 @@ function foo() {
 
 function sayHello() {
 
-}
-
-function isTwo() {
-    return 1 + 1;
+        return ""
 }
