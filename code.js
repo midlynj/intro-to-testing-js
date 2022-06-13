@@ -7,7 +7,9 @@ function foo() {
     return 2;
 }
 
-function sayHello() {
+function sayHello(name) {
 
-        return ""
+        return "Hello, " + name + "!"
+
+
 }
