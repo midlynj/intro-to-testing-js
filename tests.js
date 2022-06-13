@@ -24,16 +24,16 @@ describe("foo", function() {
 
 describe("sayHello", function() {
             it("sayHello should return a string when called.", function() {
-                expect(typeof sayHello()).toBe("string")
+                    expect(typeof sayHello()).toBe("string")
             });
             it("sayHello(Jane) should returns Hello, Jane!", function () {
-                expect(sayHello("Jane")).toBe("Hello, Jane!")
+                    expect(sayHello("Jane")).toBe("Hello, Jane!")
             })
             it("sayHello(Alex) should returns Hello, Alex!", function () {
-                expect(sayHello("Alex")).toBe("Hello, Alex!")
+                    expect(sayHello("Alex")).toBe("Hello, Alex!")
              });
              it("sayHello(Pat) should returns Hello, Pat!", function () {
-                expect(sayHello("Pat")).toBe("Hello, Pat!")
+                    expect(sayHello("Pat")).toBe("Hello, Pat!")
              });
 });
 
