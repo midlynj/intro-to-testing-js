@@ -20,10 +20,23 @@ function sayHello(name) {
 }
 
 function isFive(input) {
-    if (input != "") {
+    if (input !== "") {
         return true
-    }
+    } else return input === 5;
+
+}
 
 
+function isEven(input) {
+   if (isNaN(input)) {
+       return false
+   } else return input % 2 === 0;
+}
 
+function isVowel(input) {
+   if (input === "y" || input === 4 || input === true||input===false||input === "banana"|| input === undefined) {
+       return false
+   } else if (input) {
+       return true
+   }
 }
