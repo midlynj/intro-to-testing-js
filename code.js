@@ -40,3 +40,11 @@ function isVowel(input) {
        return true
    }
 }
+
+function add(input1, input2) {
+    if (input1 + input2) {
+        return Number(input1) +  Number(input2)
+    } else if (typeof input1 != "number" || typeof input2 != "number") {
+        return NaN
+    }
+}
